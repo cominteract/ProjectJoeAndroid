@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#1FACE9"
+  	 >
+    	<ImageView
+			android:layout_marginTop="1dp"
+			android:layout_centerHorizontal="true"
+			android:layout_alignParentTop="true"
+			android:layout_width="match_parent"
+			android:layout_height="300dp"
+			android:background="#555555"
+			android:id="@+id/completePhotoImage"
+    	/>
+		<TextView
+			android:layout_below="@id/completePhotoImage"
+			android:id="@+id/complePhotoTxt"
+			android:layout_width="260dp"
+			android:padding="3dp"
+			android:layout_height="wrap_content" />
+
+
+		<EditText
+			android:layout_centerHorizontal="true"
+			android:layout_width="300dp"
+			android:layout_height="60dp"
+			android:background="#277fb7"
+			android:layout_margin="5dp"
+			android:textColor="#fff"
+			android:layout_below="@id/complePhotoTxt"
+			android:hint="message here"
+			android:padding="10dp"
+		/>
+		<Button
+			android:layout_width="match_parent"
+			android:id="@+id/completePhotoOkBtn"
+			android:textColor="#ffffff"
+			android:background="#277fb7"
+			android:text="OK"
+			android:layout_alignParentBottom="true"
+			android:layout_height="wrap_content"
+
+		/>
+
+
+</RelativeLayout>

@@ -1,0 +1,423 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:2:1-79:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/e24386828022dc18c4e1e5e146da817b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/33418dd4b2f09af86a79ddb5ab72ec5b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ed172a43da561d5194cce2ed928fd56f/AndroidManifest.xml:2:1-11:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/1380f9539d8cc464c672110b8bde94bd/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/4c9703176137b93fc051236a5edb11ea/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/662ce9b07a01582ebf045712053f5162/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/6b52ad02a5ca2803a5f939598ceeeb5d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.42.0.aar/9b781a92ada9a3c8b91b41c83cfc3e3a/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-login-4.42.0.aar/462635c7824dab9e3b9fdfbc5918a1f7/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-share-4.42.0.aar/c7ff0ce3deb5bf1d7e886af1649617ac/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/d2edb6d7f88a63ce0cfcf65d9eb6702c/AndroidManifest.xml:21:1-37:12
+MERGED from [com.android.support:support-v4:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/877decb0ac43437367fdc86be9c04a70/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/1a597bad36f8b2b124ca7db6ae6fb95f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/c0c157dee8196fcf29f23e9730b5d3fc/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/70fc7bf5ec19da7101b8a28cf2aa0abe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/cb51a61482eb18364068002d1fca2458/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/152465795d7ecb96e5e2782f9a693188/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-places-4.42.0.aar/a3911eec90c9dab000ab3baf45aa274c/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.42.0.aar/fea1ec8208815e088a7a36a2ee93f25b/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.42.0.aar/ad7f0aa777760a5e4d5a73578f68cd8d/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/a0d36297df4d7922a24c7ab54c276d90/AndroidManifest.xml:21:1-53:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/278505ce79065add80aa9bb9fea71086/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/f7fe4dda7f614611172c87e79711a376/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/888ab9c94936d5e6cf4511165a7f5966/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/f5d521a5903908a9b8c97ef3b94dfaef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/1952c9a54c6845e45f6b5b3bdae4f27e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/e32bf676d2d2be4f098e2f51f14ca92d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/95ad88ee71c7d8c72d8c619d8797c5ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/9595b6aaccbeb487ce0596579cbae65f/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/551fd94119be01303fc3f5e6eacb2492/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/57354d6af5a47e0999c97be0e9f33784/AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/3016c999b4398504b6a67ce2ef6f905e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/9623d4d07503b2556ebebbe4f5bd9d84/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/b254c07f769b5465cbe7596c63689f1d/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/6bfe31fe6eea7c76347d99cfe459e085/AndroidManifest.xml:2:1-6:12
+INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:2:1-79:12
+INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:2:1-79:12
+	package
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/1380f9539d8cc464c672110b8bde94bd/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/1380f9539d8cc464c672110b8bde94bd/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:9:22-95
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/1380f9539d8cc464c672110b8bde94bd/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/1380f9539d8cc464c672110b8bde94bd/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:12:22-76
+uses-feature#android.hardware.camera
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:14:5-60
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:24:5-26:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:24:5-26:36
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:14:19-57
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:16:5-71
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:16:22-68
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:19:5-21:67
+	android:value
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:21:9-64
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:20:9-54
+uses-feature#0x00020000
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:23:5-25:35
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/1380f9539d8cc464c672110b8bde94bd/AndroidManifest.xml:26:5-28:35
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/1380f9539d8cc464c672110b8bde94bd/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:24:9-41
+	android:required
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:25:9-32
+application
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:27:5-77:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ed172a43da561d5194cce2ed928fd56f/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ed172a43da561d5194cce2ed928fd56f/AndroidManifest.xml:9:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:45:5-53:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:45:5-53:19
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/1380f9539d8cc464c672110b8bde94bd/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/1380f9539d8cc464c672110b8bde94bd/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/4c9703176137b93fc051236a5edb11ea/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/4c9703176137b93fc051236a5edb11ea/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/662ce9b07a01582ebf045712053f5162/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/662ce9b07a01582ebf045712053f5162/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/6b52ad02a5ca2803a5f939598ceeeb5d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/6b52ad02a5ca2803a5f939598ceeeb5d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.42.0.aar/9b781a92ada9a3c8b91b41c83cfc3e3a/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.42.0.aar/9b781a92ada9a3c8b91b41c83cfc3e3a/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-login-4.42.0.aar/462635c7824dab9e3b9fdfbc5918a1f7/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-login-4.42.0.aar/462635c7824dab9e3b9fdfbc5918a1f7/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-share-4.42.0.aar/c7ff0ce3deb5bf1d7e886af1649617ac/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-share-4.42.0.aar/c7ff0ce3deb5bf1d7e886af1649617ac/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/d2edb6d7f88a63ce0cfcf65d9eb6702c/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/d2edb6d7f88a63ce0cfcf65d9eb6702c/AndroidManifest.xml:28:5-35:19
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/c0c157dee8196fcf29f23e9730b5d3fc/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/c0c157dee8196fcf29f23e9730b5d3fc/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-places-4.42.0.aar/a3911eec90c9dab000ab3baf45aa274c/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-places-4.42.0.aar/a3911eec90c9dab000ab3baf45aa274c/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.42.0.aar/fea1ec8208815e088a7a36a2ee93f25b/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.42.0.aar/fea1ec8208815e088a7a36a2ee93f25b/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.42.0.aar/ad7f0aa777760a5e4d5a73578f68cd8d/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.42.0.aar/ad7f0aa777760a5e4d5a73578f68cd8d/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/a0d36297df4d7922a24c7ab54c276d90/AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/a0d36297df4d7922a24c7ab54c276d90/AndroidManifest.xml:28:5-51:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/9595b6aaccbeb487ce0596579cbae65f/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/9595b6aaccbeb487ce0596579cbae65f/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/57354d6af5a47e0999c97be0e9f33784/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/57354d6af5a47e0999c97be0e9f33784/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/9623d4d07503b2556ebebbe4f5bd9d84/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/9623d4d07503b2556ebebbe4f5bd9d84/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/b254c07f769b5465cbe7596c63689f1d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/b254c07f769b5465cbe7596c63689f1d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/6bfe31fe6eea7c76347d99cfe459e085/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/6bfe31fe6eea7c76347d99cfe459e085/AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.42.0.aar/9b781a92ada9a3c8b91b41c83cfc3e3a/AndroidManifest.xml:28:18-44
+	android:label
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:30:9-41
+	android:icon
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:29:9-45
+	android:allowBackup
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:28:9-35
+	android:theme
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:31:9-40
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:32:9-34:46
+	android:value
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:33:13-58
+activity#com.andre.projjoe.activities.MainActivity
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:36:9-44:20
+	android:label
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:38:13-45
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:37:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:39:13-43:29
+action#android.intent.action.MAIN
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:40:17-69
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:40:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:42:17-77
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:42:27-74
+activity#com.andre.projjoe.activities.Login
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:45:9-47:60
+	android:label
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:47:13-57
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:46:13-45
+activity#com.andre.projjoe.activities.Signup
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:48:9-50:61
+	android:label
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:50:13-58
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:49:13-46
+activity#com.andre.projjoe.activities.BgStartJoe
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:51:9-53:67
+	android:label
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:53:13-64
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:52:13-50
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:55:9-57:47
+	android:value
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:57:13-44
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:56:13-62
+meta-data#com.google.android.gms.version
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:58:9-60:69
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/6b52ad02a5ca2803a5f939598ceeeb5d/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/6b52ad02a5ca2803a5f939598ceeeb5d/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:60:13-66
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:59:13-58
+activity#com.andre.projjoe.activities.MapActivity
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:62:9-64:58
+	android:label
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:64:13-55
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:63:13-51
+activity#com.andre.projjoe.activities.Sharethis
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:65:9-67:64
+	android:label
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:67:13-61
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:66:13-49
+activity#com.andre.projjoe.activities.MainNavigation
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:68:9-71:59
+	android:label
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:70:13-67
+	android:theme
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:71:13-56
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:69:13-54
+activity#com.andre.projjoe.activities.MerchantLogin
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:72:9-62
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:72:19-59
+activity#com.andre.projjoe.activities.MerchantNavigation
+ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:73:9-76:20
+	android:name
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml:73:19-64
+uses-sdk
+INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml
+INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/e24386828022dc18c4e1e5e146da817b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/e24386828022dc18c4e1e5e146da817b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/33418dd4b2f09af86a79ddb5ab72ec5b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/33418dd4b2f09af86a79ddb5ab72ec5b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ed172a43da561d5194cce2ed928fd56f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/ed172a43da561d5194cce2ed928fd56f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:19:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:19:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/1380f9539d8cc464c672110b8bde94bd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.8.0.aar/1380f9539d8cc464c672110b8bde94bd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/4c9703176137b93fc051236a5edb11ea/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/4c9703176137b93fc051236a5edb11ea/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/662ce9b07a01582ebf045712053f5162/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.8.0.aar/662ce9b07a01582ebf045712053f5162/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/6b52ad02a5ca2803a5f939598ceeeb5d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/6b52ad02a5ca2803a5f939598ceeeb5d/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.42.0.aar/9b781a92ada9a3c8b91b41c83cfc3e3a/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.42.0.aar/9b781a92ada9a3c8b91b41c83cfc3e3a/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-login-4.42.0.aar/462635c7824dab9e3b9fdfbc5918a1f7/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-login-4.42.0.aar/462635c7824dab9e3b9fdfbc5918a1f7/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-share-4.42.0.aar/c7ff0ce3deb5bf1d7e886af1649617ac/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-share-4.42.0.aar/c7ff0ce3deb5bf1d7e886af1649617ac/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/d2edb6d7f88a63ce0cfcf65d9eb6702c/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/d2edb6d7f88a63ce0cfcf65d9eb6702c/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:support-v4:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/877decb0ac43437367fdc86be9c04a70/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/877decb0ac43437367fdc86be9c04a70/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/1a597bad36f8b2b124ca7db6ae6fb95f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/1a597bad36f8b2b124ca7db6ae6fb95f/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/c0c157dee8196fcf29f23e9730b5d3fc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/c0c157dee8196fcf29f23e9730b5d3fc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/70fc7bf5ec19da7101b8a28cf2aa0abe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/70fc7bf5ec19da7101b8a28cf2aa0abe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/cb51a61482eb18364068002d1fca2458/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/cb51a61482eb18364068002d1fca2458/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/152465795d7ecb96e5e2782f9a693188/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/152465795d7ecb96e5e2782f9a693188/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-places-4.42.0.aar/a3911eec90c9dab000ab3baf45aa274c/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-places-4.42.0.aar/a3911eec90c9dab000ab3baf45aa274c/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.42.0.aar/fea1ec8208815e088a7a36a2ee93f25b/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.42.0.aar/fea1ec8208815e088a7a36a2ee93f25b/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.42.0.aar/ad7f0aa777760a5e4d5a73578f68cd8d/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.42.0.aar/ad7f0aa777760a5e4d5a73578f68cd8d/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/a0d36297df4d7922a24c7ab54c276d90/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/a0d36297df4d7922a24c7ab54c276d90/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/278505ce79065add80aa9bb9fea71086/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/278505ce79065add80aa9bb9fea71086/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/f7fe4dda7f614611172c87e79711a376/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/f7fe4dda7f614611172c87e79711a376/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/888ab9c94936d5e6cf4511165a7f5966/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/888ab9c94936d5e6cf4511165a7f5966/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/f5d521a5903908a9b8c97ef3b94dfaef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/f5d521a5903908a9b8c97ef3b94dfaef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/1952c9a54c6845e45f6b5b3bdae4f27e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/1952c9a54c6845e45f6b5b3bdae4f27e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/e32bf676d2d2be4f098e2f51f14ca92d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/e32bf676d2d2be4f098e2f51f14ca92d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/95ad88ee71c7d8c72d8c619d8797c5ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/95ad88ee71c7d8c72d8c619d8797c5ac/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/9595b6aaccbeb487ce0596579cbae65f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/9595b6aaccbeb487ce0596579cbae65f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/551fd94119be01303fc3f5e6eacb2492/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/551fd94119be01303fc3f5e6eacb2492/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/57354d6af5a47e0999c97be0e9f33784/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.8.0.aar/57354d6af5a47e0999c97be0e9f33784/AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/3016c999b4398504b6a67ce2ef6f905e/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/3016c999b4398504b6a67ce2ef6f905e/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/9623d4d07503b2556ebebbe4f5bd9d84/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.8.0.aar/9623d4d07503b2556ebebbe4f5bd9d84/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/b254c07f769b5465cbe7596c63689f1d/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.8.0.aar/b254c07f769b5465cbe7596c63689f1d/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/6bfe31fe6eea7c76347d99cfe459e085/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.8.0.aar/6bfe31fe6eea7c76347d99cfe459e085/AndroidManifest.xml:4:5-43
+INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml
+INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreinsigne/Documents/AndroidProjects/projectjoe/projectjoeandroid/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:21:22-62
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:32:5-34:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:34:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:33:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:36:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:42:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:46:9-52:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:49:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:48:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:50:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:52:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.5.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.5.0.aar/952aff924025deba871be79fa703046e/AndroidManifest.xml:47:13-74
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/4c9703176137b93fc051236a5edb11ea/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/4c9703176137b93fc051236a5edb11ea/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/4c9703176137b93fc051236a5edb11ea/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/4c9703176137b93fc051236a5edb11ea/AndroidManifest.xml:24:13-79
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/d2edb6d7f88a63ce0cfcf65d9eb6702c/AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/d2edb6d7f88a63ce0cfcf65d9eb6702c/AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/d2edb6d7f88a63ce0cfcf65d9eb6702c/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/d2edb6d7f88a63ce0cfcf65d9eb6702c/AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/d2edb6d7f88a63ce0cfcf65d9eb6702c/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/d2edb6d7f88a63ce0cfcf65d9eb6702c/AndroidManifest.xml:33:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/d2edb6d7f88a63ce0cfcf65d9eb6702c/AndroidManifest.xml:34:9-67
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-common-4.42.0.aar/d2edb6d7f88a63ce0cfcf65d9eb6702c/AndroidManifest.xml:34:19-64
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/a0d36297df4d7922a24c7ab54c276d90/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/a0d36297df4d7922a24c7ab54c276d90/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/a0d36297df4d7922a24c7ab54c276d90/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/a0d36297df4d7922a24c7ab54c276d90/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/a0d36297df4d7922a24c7ab54c276d90/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/a0d36297df4d7922a24c7ab54c276d90/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/a0d36297df4d7922a24c7ab54c276d90/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/a0d36297df4d7922a24c7ab54c276d90/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/a0d36297df4d7922a24c7ab54c276d90/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/andreinsigne/.gradle/caches/transforms-1/files-1.1/facebook-core-4.42.0.aar/a0d36297df4d7922a24c7ab54c276d90/AndroidManifest.xml:48:25-92

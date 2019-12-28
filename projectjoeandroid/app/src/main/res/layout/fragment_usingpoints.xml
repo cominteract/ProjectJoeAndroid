@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3996ad"
+     >
+    
+	<TextView
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:textColor="#fff"
+	    android:layout_margin="10dp"
+	    android:textSize="20sp"
+		android:id="@+id/usingPointsCaptionTxt"
+	    android:text="Total Points" />
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+		android:layout_below="@id/usingPointsCaptionTxt"
+		android:layout_centerHorizontal="true"
+	    android:textColor="#fff"
+	    android:layout_margin="10dp"
+	    android:textSize="30sp"
+	    android:id="@+id/usingCurrentPointsTxt"
+	    android:text="1220 pts" />
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:padding="5dp"
+	    android:textColor="#fff"
+		android:layout_margin="10dp"
+	    android:textSize="20sp"
+		android:id="@+id/usingInputCaptionTxt"
+		android:layout_below="@id/usingCurrentPointsTxt"
+		android:layout_centerHorizontal="true"
+	    android:text="Input the amount of points you have to use" />
+	<EditText
+	    android:layout_width="match_parent"
+	    android:hint="Input points here"
+	    android:layout_height="wrap_content"
+	    android:inputType="number"
+	    android:id="@+id/usingPointsEdt"
+	    android:padding="10dp"
+		android:layout_margin="10dp"
+		android:layout_above="@id/usingOkBtn"
+	    android:textColor="#fff"
+
+		android:layout_centerHorizontal="true"
+	    android:background="#6babbe"
+	    />
+    
+
+
+    			    	
+   	<Button
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="OK"
+		android:layout_alignParentBottom="true"
+		android:textColor="#fff"
+	    android:id="@+id/usingOkBtn"
+	    android:background="#000" />	    	
+</RelativeLayout>

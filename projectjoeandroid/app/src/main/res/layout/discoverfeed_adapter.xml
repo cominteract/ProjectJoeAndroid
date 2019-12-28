@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+
+	android:id="@+id/discoverPassContainer"
+	android:orientation="vertical"
+	>
+	<LinearLayout
+		android:id="@+id/discoverNormalPassContainer"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<RelativeLayout
+			android:background="#50527a"
+			android:padding="5dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<ImageView
+				android:layout_width="14dp"
+				android:layout_height="14dp"
+				android:layout_margin="5dp"
+				android:id="@+id/discoverImage"
+				android:background="@drawable/guess_icon"
+			>
+			</ImageView>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+
+				android:layout_toRightOf="@id/discoverImage"
+				android:id="@+id/discoverTitleTxt"
+
+				android:text="GUESS"
+				android:textColor="#ecae2e">
+			</TextView>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+
+				android:layout_below="@id/discoverTitleTxt"
+				android:id="@+id/discoverDescTxt"
+				android:text="10% off on men's watches"
+				android:textColor="#ffffff">
+			</TextView>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+
+				android:layout_below="@id/discoverDescTxt"
+				android:id="@+id/discoverClaimsTxt"
+				android:text="98 claims"
+				android:textColor="#ecae2e">
+			</TextView>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+
+				android:layout_alignParentRight="true"
+				android:layout_alignParentEnd="true"
+				android:id="@+id/discoverDeadlineTxt"
+				android:text="2 days left"
+				android:textColor="#ecae2e">
+			</TextView>
+		</RelativeLayout>
+		<RelativeLayout
+			android:background="#6b6ea2"
+			android:padding="5dp"
+
+			android:layout_width="match_parent"
+			android:layout_height="100dp">
+			<TextView
+				android:text="DEAL"
+				android:id="@+id/discoverNormalPassTypeTxt"
+				android:textColor="#fff"
+				android:gravity="center_horizontal"
+				android:background="#ecae2e"
+				android:layout_width="150dp"
+				android:layout_height="wrap_content" />
+			<Button
+				android:layout_width="40dp"
+				android:layout_height="55dp"
+
+				android:id="@+id/discoverGrabBtn"
+				android:layout_centerVertical="true"
+
+				android:layout_alignParentRight="true"
+				android:layout_alignParentEnd="true"
+				android:background="@drawable/grab"
+
+				android:textColor="#ffffff">
+			</Button>
+			<Button
+				android:layout_width="40dp"
+				android:layout_height="55dp"
+				android:layout_toLeftOf="@id/discoverGrabBtn"
+				android:layout_centerVertical="true"
+				android:background="@drawable/fbshare"
+
+				android:id="@+id/discoverFbShareBtn"
+				android:textColor="#ffffff">
+			</Button>
+		</RelativeLayout>
+	</LinearLayout>
+
+	<LinearLayout
+		android:visibility="gone"
+		android:orientation="vertical"
+		android:id="@+id/discoverLockedPassContainer"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<RelativeLayout
+			android:background="#50527a"
+			android:padding="5dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<ImageView
+				android:layout_width="14dp"
+				android:layout_height="14dp"
+				android:layout_margin="5dp"
+				android:id="@+id/discoverLockedImage"
+				android:background="@drawable/guess_icon">
+			</ImageView>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_toRightOf="@id/discoverLockedImage"
+				android:id="@+id/discoverLockedTitleTxt"
+				android:text="GUESS"
+				android:textColor="#ecae2e">
+			</TextView>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/discoverLockedTitleTxt"
+				android:id="@+id/discoverLockedDescTxt"
+				android:text="10% off on men's watches"
+				android:textColor="#ffffff">
+			</TextView>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+
+				android:layout_below="@id/discoverLockedDescTxt"
+				android:id="@+id/discoverLockedClaimsTxt"
+				android:text="98 claims"
+				android:textColor="#ecae2e">
+			</TextView>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+
+				android:layout_alignParentRight="true"
+				android:layout_alignParentEnd="true"
+				android:id="@+id/discoverLockedDeadlineTxt"
+				android:text="2 days left"
+				android:textColor="#ecae2e">
+			</TextView>
+		</RelativeLayout>
+		<RelativeLayout
+			android:background="#6b6ea2"
+			android:padding="5dp"
+
+			android:layout_width="match_parent"
+			android:layout_height="100dp">
+			<TextView
+				android:text="COUPON"
+				android:id="@+id/discoverLockedTypeTxt"
+				android:textColor="#fff"
+				android:gravity="center_horizontal"
+				android:background="#ecae2e"
+				android:layout_width="150dp"
+				android:layout_height="wrap_content" />
+
+			<ImageView
+				android:layout_width="85dp"
+				android:layout_height="85dp"
+				android:id="@+id/discoverLockedLock"
+				android:layout_centerVertical="true"
+				android:layout_centerInParent="true"
+				android:background="@drawable/lock_image"
+				android:textColor="#ffffff">
+			</ImageView>
+			<Button
+				android:layout_width="55dp"
+				android:layout_height="55dp"
+				android:id="@+id/discoverLockedUnlockBtn"
+				android:layout_centerVertical="true"
+				android:layout_alignParentRight="true"
+				android:layout_alignParentEnd="true"
+				android:background="@drawable/lock_icon"
+				android:textColor="#ffffff">
+			</Button>
+
+		</RelativeLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="vertical"
+		android:visibility="gone"
+		android:id="@+id/discoverChallengePassContainer"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<TextView
+			android:id="@+id/discoverChallengeTitleTxt"
+			android:background="#50527a"
+			android:padding="5dp"
+			android:textColor="#fff"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" />
+		<RelativeLayout
+			android:background="#6b6ea2"
+			android:padding="5dp"
+			android:layout_width="match_parent"
+			android:layout_height="120dp">
+			<TextView
+				android:text="CHALLENGE"
+				android:textColor="#fff"
+				android:id="@+id/discoverChallengeTypeTxt"
+				android:gravity="center_horizontal"
+				android:background="#ecae2e"
+				android:layout_width="150dp"
+				android:layout_height="wrap_content" />
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/discoverChallengeImage"
+				android:layout_centerVertical="true"
+				android:layout_centerInParent="true"
+				android:background="@drawable/challenge_pass"
+				android:textColor="#ffffff">
+			</ImageView>
+		</RelativeLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="vertical"
+		android:id="@+id/discoverNewsContainer"
+		android:layout_width="match_parent"
+		android:visibility="gone"
+		android:layout_height="wrap_content">
+		<TextView
+			android:id="@+id/discoverNewsTitleTxt"
+			android:background="#50527a"
+			android:padding="5dp"
+			android:textColor="#fff"
+			android:text="10% off on men's watches"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" />
+		<RelativeLayout
+			android:background="#6b6ea2"
+			android:padding="5dp"
+			android:layout_width="match_parent"
+			android:layout_height="130dp">
+			<ImageView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/discoverNewsImage"
+				android:layout_centerVertical="true"
+				android:layout_centerInParent="true"
+				android:textColor="#ffffff" />
+			<TextView
+				android:text="NEWS"
+				android:id="@+id/discoverNewsTypeTxt"
+				android:textColor="#fff"
+				android:gravity="center_horizontal"
+				android:background="#ecae2e"
+				android:layout_width="150dp"
+				android:layout_height="wrap_content" />
+
+
+			<!--	android:background="@drawable/newsfeed"-->
+		</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

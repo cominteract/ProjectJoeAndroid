@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:background="#70759e"
+    android:padding="5dp"
+    android:weightSum="1">
+    <TextView 
+        android:text="1."
+        android:layout_width="0dp"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".05"
+        android:textColor="#ffffff"
+        android:id="@+id/leaderBoardFullIdTxt"
+        />
+    <ImageView
+        android:background="@drawable/allmerchants_nike_icon"
+        android:layout_margin="5dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        android:textColor="#ffffff"
+        android:id="@+id/leaderBoardImage"
+        />
+    <TextView 
+        android:text="Juan De La Cruz"
+        android:id="@+id/leaderBoardFullNameTxt"
+        android:layout_width="0dp"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".355"
+        android:textColor="#ffffff"
+        />
+    <TextView 
+        android:text="123456789 pts"
+        android:id="@+id/leaderBoardPointsTxt"
+        android:layout_width="0dp"
+        android:layout_margin="5dp"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:layout_weight=".355"
+        />   
+        
+
+</LinearLayout>

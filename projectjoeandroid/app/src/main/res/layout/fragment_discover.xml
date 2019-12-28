@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.andre.projjoe.fragments.DiscoverFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#5b5e81"
+        android:id="@+id/discoverFilterContainer"
+        android:layout_height="wrap_content"
+        android:padding="3dp" >
+        <ImageView
+            android:background="@drawable/filter_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Filter"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+    <ImageView
+        android:background="@drawable/backarrow"
+        android:id="@+id/discoverBackBtn"
+        android:paddingTop="30dp"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/discoverShowMapContainer"
+        android:orientation="horizontal"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Show in map"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:background="@drawable/photo_marker_button"
+            android:layout_width="12dp"
+            android:layout_height="12dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/discoverMapContainer"
+        android:visibility="gone"
+        android:layout_below="@id/discoverFilterContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+         <fragment
+            android:id="@+id/discoverMap"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+             />
+    </LinearLayout>
+    <ListView
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/discoverFilterContainer"
+        android:layout_width="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/discoverFilterListView" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/discoverFilterContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/discoverRecyclerView" />
+
+</RelativeLayout>

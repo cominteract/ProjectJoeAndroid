@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3996ad" >
+	<LinearLayout
+		android:layout_marginTop="30dp"
+		android:layout_alignParentTop="true"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+    	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="1dp"
+			android:textSize="14sp"
+			android:textColor="#fff"
+			android:layout_margin="10dp"
+			android:layout_gravity="center_horizontal"
+			android:id="@+id/inputPasswordCaptionTxt"
+			android:text="You are about to give John Doe" />
+		<ImageView
+			android:layout_width="200dp"
+			android:layout_height="120dp"
+			android:id="@+id/inputPasswordImage"
+			android:layout_gravity="center_horizontal"
+			android:background="#6babbe" />
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="1dp"
+			android:textSize="14sp"
+			android:textColor="#fff"
+			android:id="@+id/inputPasswordPassName"
+			android:layout_margin="5dp"
+			android:layout_gravity="center"
+			android:text="PASS NAME HERE" />
+
+    	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="1dp"
+			android:textSize="14sp"
+			android:textColor="#fff"
+
+			android:layout_margin="5dp"
+			android:layout_gravity="center"
+			android:text="Enter your password to proceed" />
+    	<EditText
+			android:layout_width="140dp"
+			android:id="@+id/inputPasswordEdt"
+			android:inputType="textPassword"
+			android:layout_height="wrap_content"
+			android:padding="1dp"
+			android:textSize="12sp"
+			android:layout_margin="5dp"
+			android:layout_gravity="center"
+			android:background="#6babbe"
+	    />
+    	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="1dp"
+			android:textSize="16sp"
+			android:textColor="#17f"
+			android:layout_margin="5dp"
+
+			android:layout_gravity="center"
+			android:text="Forgot Password?" />
+	</LinearLayout>
+    <LinearLayout
+      	android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:weightSum="1"
+		android:layout_alignParentBottom="true"
+	    android:orientation="horizontal"
+	    >	    	
+    	<Button
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="OK"
+			android:textColor="#fff"
+			android:id="@+id/inputPasswordOKBtn"
+			android:layout_weight=".5"
+			android:background="#000" />
+		<Button
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight=".5"
+			android:text="Cancel"
+			android:textColor="#fff"
+			android:id="@+id/inputPasswordCancelBtn"
+			android:background="#000" />
+    </LinearLayout>	    	
+</RelativeLayout>

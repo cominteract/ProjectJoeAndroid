@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#1d233d"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="fill_parent" >
+
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Congratulations"
+        android:textSize="24sp"
+        android:textColor="#FFF" 
+         />
+ 
+    <TextView
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="You have earned 20 points"
+        android:id="@+id/earnedpoints"
+        android:textSize="15sp"
+        android:textColor="#FFF" 
+         />
+    
+   <TextView
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaction Code : 123456789"
+        android:id="@+id/transactcode"
+        android:textSize="13sp"
+        android:textColor="#FFF" 
+         />
+      <TextView
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Timestamp 5/14/2014 9:35 PM"
+        android:id="@+id/timestamp"
+        android:textSize="13sp"
+        android:textColor="#FFF" 
+         />
+    
+    
+       <Button
+        android:id="@+id/btnok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="OK"
+        android:layout_marginRight="5dp" />
+
+       
+</LinearLayout>

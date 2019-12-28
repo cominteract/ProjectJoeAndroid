@@ -1,0 +1,160 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2ba0ba"
+    tools:context="com.andre.projjoe.fragments.JoeUserProfileFragment">
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <!--android:background="@drawable/profilepicture"-->
+            <ImageView
+                android:id="@+id/joeUserProfileImage"
+
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+            <TextView
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/joeUserProfileFullNameTxt"/>
+            <TextView
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/joeUserProfileUserNameTxt"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:maxLines="2"
+                android:lines="2"
+                android:id="@+id/joeUserProfilePointsTxt"
+                android:textColor="#fff"
+                android:gravity="center_horizontal"
+                android:background="#97cdda"
+                android:layout_weight=".247"
+                android:text="Points"
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:maxLines="2"
+                android:lines="2"
+                android:id="@+id/joeUserProfilePassesTxt"
+                android:textColor="#fff"
+                android:gravity="center_horizontal"
+                android:background="#97cdda"
+                android:layout_weight=".247"
+                android:text="Passes"
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:maxLines="2"
+                android:lines="2"
+                android:id="@+id/joeUserProfileFriendsTxt"
+                android:textColor="#fff"
+                android:gravity="center_horizontal"
+                android:background="#97cdda"
+                android:layout_weight=".247"
+                android:text="Connections"
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <TextView
+                android:maxLines="2"
+                android:lines="2"
+                android:id="@+id/joeUserProfileTransactionsTxt"
+                android:textColor="#fff"
+                android:gravity="center_horizontal"
+                android:background="#97cdda"
+                android:layout_weight=".247"
+                android:text="Transactions"
+                android:layout_margin="3dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/joeUserProfileBirthdayTxt"
+            android:maxLines="2"
+            android:lines="2"
+            android:layout_marginLeft="15dp"
+            android:textColor="#fff"
+            android:text="Birthday :"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp" />
+        <TextView
+            android:id="@+id/joeUserProfileLocationTxt"
+            android:text="Location :"
+            android:maxLines="2"
+            android:lines="2"
+            android:layout_marginLeft="15dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp" />
+        <TextView
+            android:id="@+id/joeUserProfileContactTxt"
+            android:text="Contact :"
+            android:maxLines="2"
+            android:lines="2"
+            android:layout_marginLeft="15dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp" />
+        <TextView
+            android:id="@+id/joeUserProfileEmailTxt"
+            android:text="Email :"
+            android:maxLines="2"
+            android:lines="2"
+            android:layout_marginLeft="15dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp" />
+        <TextView
+            android:id="@+id/joeUserProfileFacebookTxt"
+            android:maxLines="2"
+            android:text="Facebook :"
+            android:lines="2"
+            android:layout_marginLeft="15dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp" />
+        <TextView
+            android:padding="3dp"
+            android:background="#97cdda"
+            android:textColor="#fff"
+            android:text="Recent Activities"
+            android:paddingLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/joeUserProfileRecyclerView"
+            android:background="#7db3c0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>
+        <Button
+            android:id="@+id/joeUserProfileGiveBtn"
+            android:layout_alignParentBottom="true"
+            android:textColor="#fff"
+            android:text="GIVE"
+            android:visibility="gone"
+            android:background="#1b5f6a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

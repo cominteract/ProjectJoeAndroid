@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1dbed0"
+    tools:context="com.andre.projjoe.activities.MerchantLogin">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/jollibee_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:layout_gravity="center_horizontal"
+            android:text="Transaction"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/merchantReviewTransactionTypeTxt"
+            android:layout_gravity="center_horizontal"
+            android:text="Your customer is earning POINTS"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@+id/merchantReviewTransactionUseContainer"
+            android:background="#2981b9"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="REVIEW TRANSACTION"
+                android:padding="3dp"
+                android:layout_margin="3dp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:id="@+id/merchantReviewTransactionUseCustomerNameTxt"
+                android:text="Customer Name :"
+                android:padding="3dp"
+                android:layout_margin="3dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:id="@+id/merchantReviewTransactionUsedTxt"
+                android:text="Transaction Amount :"
+                android:padding="3dp"
+                android:layout_margin="3dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/merchantReviewTransactionEarnContainer"
+            android:background="#2981b9"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="REVIEW TRANSACTION"
+                android:padding="3dp"
+                android:layout_margin="3dp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:id="@+id/merchantReviewTransactionEarnCustomerNameTxt"
+                android:text="Customer Name :"
+                android:padding="3dp"
+                android:layout_margin="3dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:id="@+id/merchantReviewTransactionAmountPriceTxt"
+                android:text="Transaction Amount :"
+                android:padding="3dp"
+                android:layout_margin="3dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:id="@+id/merchantReviewTransactionRewardTxt"
+                android:text="Points Reward :"
+                android:padding="3dp"
+                android:layout_margin="3dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:id="@+id/merchantReviewTransactionORNumberTxt"
+                android:text="OR Number :"
+                android:padding="3dp"
+                android:layout_margin="3dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="Click ok if transaction summary is correct
+Click back to change transaction details"
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            android:textColor="#fff"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:text="OK"
+        android:padding="3dp"
+
+        android:background="#2981b9"
+        android:textColor="#fff"
+        android:id="@+id/merchantReviewTransactionOkBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

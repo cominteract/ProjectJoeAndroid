@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#379fb9"
+    
+    android:orientation="vertical" >
+    <TextView
+		android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+		android:id="@+id/passSuccessTopCaptionTxt"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:layout_marginTop="20dp"
+		android:textColor="#fff"
+		android:layout_centerHorizontal="true"
+		android:layout_width="match_parent"
+		android:text="SUCCESS!"
+		/>
+    	<TextView
+			android:layout_height="wrap_content"
+			android:layout_below="@id/passSuccessTopCaptionTxt"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:textColor="#fff"
+			android:id="@+id/passSuccessNotifTxt"
+
+			android:layout_width="match_parent"
+			android:text="You have given"
+		/>
+        <TextView
+			android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:textColor="#fff"
+			android:layout_below="@id/passSuccessNotifTxt"
+			android:id="@+id/passSuccessDetailsTxt"
+			android:layout_width="match_parent"
+			android:text="Pass Details"
+		/>
+        <LinearLayout
+			android:id="@+id/passSuccessUserNameContainer"
+			android:layout_below="@id/passSuccessDetailsTxt"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+         	android:layout_centerHorizontal="true"
+            >
+		   <TextView
+				android:layout_height="wrap_content"
+				android:padding="3dp"
+				android:textColor="#fff"
+				android:layout_width="wrap_content"
+				android:text="to" />
+			<TextView
+				android:padding="3dp"
+				android:layout_height="wrap_content"
+				android:id="@+id/passSuccessUser"
+				android:textColor="#fff"
+				android:layout_width="wrap_content"
+				android:text=" Alex Tiu" />
+       </LinearLayout>
+		   <ImageView
+
+				android:layout_width="110dp"
+			   	android:layout_centerHorizontal="true"
+				android:layout_below="@id/passSuccessUserNameContainer"
+				android:layout_height="110dp"
+				android:background="@drawable/profilepicture"
+				/>
+		  <TextView
+				android:layout_height="wrap_content"
+				android:textSize="18sp"
+				android:layout_above="@id/passSuccessMyTransactionsBtn"
+				android:gravity="center"
+				android:textColor="#fff"
+			  	android:id="@+id/passSuccessViewCaptionTxt"
+				android:layout_width="match_parent"
+				android:text="You can view this transaction in"
+			/>
+	  	  <Button
+        	android:layout_height="wrap_content"
+			android:textSize="14sp"
+			android:background="#00000000"
+			android:gravity="center"
+			android:textColor="#fff"
+			android:layout_width="match_parent"
+			android:text="My Transactions"
+			android:layout_above="@id/passSuccessOkBtn"
+			android:layout_marginBottom= "30dp"
+			android:id="@+id/passSuccessMyTransactionsBtn"
+
+			/>
+	  	<Button
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="OK"
+			android:textColor="#fff"
+			android:layout_alignParentBottom="true"
+			android:id="@+id/passSuccessOkBtn"
+			android:background="#000" />
+</RelativeLayout>

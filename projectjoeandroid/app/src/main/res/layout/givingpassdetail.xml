@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#3aa0ba"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_weight=".15"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="You are about to give"
+        />
+    <TextView
+        android:layout_weight=".10"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:id="@+id/friendname"
+        android:text="Name here"
+        />
+        <TextView
+        android:layout_weight=".15"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:id="@+id/friendid"
+        android:visibility="gone"
+        android:text="Name here"
+        />
+    <ImageView
+       	android:layout_weight=".35"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@drawable/jollibee_icon"
+        android:id="@+id/imagepass"
+        />
+    <TextView
+        android:layout_weight=".10"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:text="PASS NAME HERE"
+        android:id="@+id/titlepass"
+        />
+	    <TextView
+        android:layout_weight=".10"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="Enter pass word to proceed"
+        />
+	   	<EditText
+        android:layout_weight=".10"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_margin="40dp"
+        android:inputType="textPassword"
+        android:text="Enter pass word to proceed"
+        />
+	   	<Button
+	   	android:layout_weight=".10"
+        android:layout_width="match_parent" 
+        android:layout_height="0dp"
+        android:textColor="#fff"
+        android:text="OK"
+        android:background="#2d3e51"
+        android:id="@+id/btnok" />
+</LinearLayout>

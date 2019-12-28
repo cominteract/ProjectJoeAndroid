@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+			android:background="#55577f"
+        	android:orientation="vertical">
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="10dp"
+			android:textSize="14sp"
+			android:id="@+id/challengeDetailsTitleTxt"
+			android:text="Win a mystery reward by"
+			android:textColor="#ffffff">
+		</TextView>
+     	<RelativeLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="130dp"
+        	android:padding="3dp"
+			android:background="#9093ad"
+        	android:orientation="horizontal"  >
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="CHALLENGE"
+				android:background="#eaa729"
+				android:textSize="15sp"
+				android:paddingLeft="62dp"
+				android:paddingRight="62dp"
+				android:paddingTop="6dp"
+				android:textColor="#ffffff">
+			</TextView>
+     		<ImageView 
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="wrap_content"
+     		    android:layout_margin="5dp"
+				android:layout_centerInParent="true"
+     		    android:background="@drawable/challenge_pass"
+     		    />
+		</RelativeLayout>>
+    </LinearLayout>
+    <View
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:background="#8183a0"
+		/>
+    <LinearLayout
+        	android:background="#696e97"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+			android:gravity="center_horizontal"
+            android:padding="15dp"
+            android:layout_weight="1"
+        	android:layout_height="wrap_content">
+			<TextView
+				android:gravity="center_horizontal"
+				android:textSize="14sp"
+				android:text="Win a mystery reward!"
+				android:textColor="#fff"
+				android:id="@+id/challengeDetailsWinTxt"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
+			<TextView
+				android:gravity="center_horizontal"
+				android:textSize="14sp"
+				android:textColor="#fff"
+				android:text="Earning a total of "
+				android:id="@+id/challengeDetailsPointsCaptionTxt"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
+			<TextView
+				android:text="My points: "
+				android:gravity="center_horizontal"
+				android:textSize="14sp"
+				android:textColor="#fff"
+				android:id="@+id/challengeDetailsCurrentPointsTxt"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
+    		<TextView
+				android:gravity="center_horizontal"
+				android:textSize="14sp"
+				android:textColor="#fff"
+				android:id="@+id/challengeDetailsTxt"
+				android:layout_width="300dp"
+				android:layout_height="150dp" />
+    </LinearLayout>
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+
+    	<Button
+    	    android:text="CLAIM"
+        	android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:background="#4f5081"
+
+    		android:id="@+id/challengeDetailsClaimBtn"
+    		android:textColor="#fff"
+    		/>
+    </LinearLayout>
+</LinearLayout>

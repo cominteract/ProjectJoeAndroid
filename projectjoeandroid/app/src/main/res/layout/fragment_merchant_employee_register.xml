@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1dbed0"
+    tools:context="com.andre.projjoe.activities.MerchantLogin">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/jollibee_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/merchantEmployeeRegisterTransactionTypeTxt"
+            android:layout_gravity="center_horizontal"
+            android:text="Transact"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+
+            android:id="@+id/merchantEmployeeRegisterEmpNumberEdt"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:hint="Employee Number"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:background="#2981b9"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+   x
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/merchantEmployeeRegisterForgotBtn"
+            android:text="Forgot Id number?"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:background="#00000000"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:text="Login"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:background="#2981b9"
+            android:textColor="#fff"
+            android:id="@+id/merchantEmployeeRegisterLoginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

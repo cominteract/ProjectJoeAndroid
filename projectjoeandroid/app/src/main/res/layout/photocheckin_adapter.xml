@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+       <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:gravity="right"
+    	android:orientation="vertical" >
+    	<LinearLayout
+        	android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:background="#005b7e"
+    		android:orientation="horizontal" >
+    		<ImageView
+    		    android:layout_width="40dp"
+    		    android:layout_height="40dp"
+    		    android:layout_margin="10dp"
+    		    android:id="@+id/photoCheckInUserImage"
+    		    android:background="@drawable/jollibee_icon" />
+    		<TextView
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="40dp"
+    		    android:layout_margin="10dp"
+    		    android:id="@+id/photoCheckInUserNameTxt"
+    		    android:textColor="#fff"
+    		    android:text="Andre Insigne" />
+
+    		</LinearLayout>
+    	<RelativeLayout
+        	android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:background="#1fb4dc"
+    		android:padding="10dp" >
+    		<ImageView
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_margin="10dp"
+				android:layout_centerInParent="true"
+    		    android:id="@+id/photoCheckInPostImage"
+    		    android:background="@drawable/jollibee_icon" />
+    	</RelativeLayout>
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:padding="10dp"
+			android:background="#005b7e"
+			android:textColor="#fff"
+			android:id="@+id/photoCheckInBranchTxt"
+			android:text="Quezon City" />
+
+
+    	
+
+	</LinearLayout>
+
+</LinearLayout>

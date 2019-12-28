@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.andre.projjoe.fragments.JoeUserLogoutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@drawable/rounded_points_background"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/joeUserLogoutImage"
+            android:layout_margin="10dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+        <TextView
+            android:text="Awww Do you want to leave me?"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_alignParentLeft="true"
+            android:textColor="#fff"
+            android:text="OK"
+            android:background="#005b7e"
+
+            android:id="@+id/joeUserLogoutOkBtn"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_alignParentRight="true"
+            android:textColor="#fff"
+            android:text="CANCEL"
+            android:background="#005b7e"
+            android:id="@+id/joeUserLogoutCancelBtn"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>

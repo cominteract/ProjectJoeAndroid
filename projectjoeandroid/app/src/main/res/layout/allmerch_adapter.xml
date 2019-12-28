@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#666b94"
+    tools:context="com.andre.projjoe.adapters.SearchAdapter" >
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/allMerchImage"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/nike" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/allMerchTxt"
+            android:textColor="#ffffff"
+            android:layout_toRightOf="@id/allMerchImage"
+            android:layout_margin="5dp"
+            android:text="NIKE" />
+        <TextView
+            android:layout_below="@id/allMerchTxt"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@id/allMerchImage"
+            android:layout_height="wrap_content"
+            android:id="@+id/allMerchDesc"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:text="Good products create value" />
+
+</RelativeLayout>

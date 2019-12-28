@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#868cb9"
+    android:orientation="vertical" >
+	<RelativeLayout
+		android:id="@+id/merchantDetailsMapContainer"
+		android:visibility="gone"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<fragment
+		android:id="@+id/merchantDetailsMap"
+		android:name="com.google.android.gms.maps.SupportMapFragment"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		/>
+		<Button
+			android:layout_margin="15dp"
+			android:textColor="#fff"
+			android:padding="3dp"
+			android:background="@color/com_facebook_messenger_blue"
+			android:text="Contact"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentLeft="true"
+			android:id="@+id/merchantDetailsContactBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		<Button
+			android:padding="3dp"
+			android:text="Get Directions"
+			android:textColor="#fff"
+			android:layout_margin="15dp"
+			android:background="@color/com_facebook_messenger_blue"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentEnd="true"
+			android:layout_alignParentRight="true"
+			android:id="@+id/merchantDetailsDirectionsBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:id="@+id/merchantDetailsContainer"
+
+		>
+        <ImageView
+
+            android:layout_width="80dp"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:id="@+id/merchantDetailsImage"
+            android:layout_height="80dp"
+            android:background="@drawable/allmerchants_nike_icon"
+            />
+
+		<TextView
+			android:id="@+id/merchantDetailsCaptionTxt"
+			android:layout_width="150dp"
+			android:layout_marginRight="5dp"
+
+
+			android:layout_height="wrap_content"
+			android:layout_alignTop="@+id/merchantDetailsPromotedDiscountTxt"
+			android:layout_toEndOf="@+id/merchantDetailsImage"
+			android:layout_toRightOf="@+id/merchantDetailsImage"
+			android:padding="5dp"
+			android:text="NIKE JUST DO IT"
+			android:textColor="#ffffff" />
+       <TextView
+           	android:background="#a7abe5"
+            android:layout_alignParentEnd="true"
+		   	android:layout_alignParentRight="true"
+		    android:layout_marginLeft="5dp"
+		    android:layout_marginTop="15dp"
+            android:padding="5dp"
+
+            android:textColor="#ffffff"
+            android:id="@+id/merchantDetailsPromotedDiscountTxt"
+            android:text="5 % cash back points"
+            android:textSize="10sp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            />
+    </RelativeLayout>
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:weightSum="1" >
+       	<Button
+            android:layout_weight=".247"
+            android:layout_width="0dp"
+            android:layout_margin="4dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+			android:background="@drawable/border_bottom_white"
+            android:id="@+id/merchantDetailsDescriptionBtn"
+			android:text="Details"
+			android:textSize="10sp"
+            />
+       	<Button
+            android:layout_weight=".247"
+            android:layout_width="0dp"
+			android:background="@drawable/border_bottom_white"
+            android:layout_margin="4dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+			android:text="Passes"
+			android:id="@+id/merchantDetailsPassesBtn"
+			android:textSize="10sp"
+            />
+       	<Button
+            android:layout_weight=".247"
+            android:layout_width="0dp"
+			android:background="@drawable/border_bottom_white"
+            android:layout_margin="4dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+			android:text="Photos"
+			android:id="@+id/merchantDetailsPhotosBtn"
+			android:textSize="10sp"
+            />
+        <Button
+            android:layout_weight=".247"
+            android:layout_width="0dp"
+			android:background="@drawable/border_bottom_white"
+            android:layout_margin="4dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+			android:text="Branches"
+			android:id="@+id/merchantDetailsBranchesBtn"
+			android:textSize="10sp"
+            />
+    </LinearLayout>
+    <TextView
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:id="@+id/merchantDetailsDescriptionTxt"
+        	android:textColor="#ffffff"
+        	android:textSize="10sp"
+        	android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco "
+        	android:padding="5dp"
+        	android:layout_margin="10dp"/>
+    <ImageView
+        	android:layout_width="match_parent"
+        	android:layout_height="20dp"
+        	android:id="@+id/merchantDetailsLeaderboardImage"
+        	android:background="#595b83">
+    </ImageView>
+     <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/merchantDetailsListView" />
+	<android.support.v7.widget.RecyclerView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:visibility="gone"
+		android:id="@+id/merchantDetailsRecyclerView" />
+</LinearLayout>

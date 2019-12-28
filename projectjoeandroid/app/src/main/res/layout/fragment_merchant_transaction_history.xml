@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1dbed0"
+    tools:context="com.andre.projjoe.activities.MerchantLogin">
+    <LinearLayout
+        android:id="@+id/merchantTransactionHistoryContainer"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/jollibee_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:text="Transaction History"
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <EditText
+        android:layout_below="@id/merchantTransactionHistoryContainer"
+        android:id="@+id/merchantTransactionHistoryEdt"
+        android:layout_margin="5dp"
+        android:padding="3dp"
+        android:background="#2981b9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+
+            android:layout_below="@id/merchantTransactionHistoryEdt"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="TRANSACTION SUCCESSFUL"
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            android:background="#2981b9"
+            android:textColor="#fff"
+            android:id="@+id/merchantReportRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+</RelativeLayout>

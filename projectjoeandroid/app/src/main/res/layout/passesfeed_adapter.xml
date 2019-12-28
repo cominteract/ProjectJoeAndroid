@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+    	android:layout_height="170dp"
+		android:background="@drawable/pass_border"
+		android:id="@+id/myPassContainer"
+    	android:orientation="vertical"
+    	>
+
+  			<RelativeLayout
+				android:background="#16323f"
+				android:padding="5dp"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content">
+     			<ImageView
+         			android:layout_width="14dp"
+         			android:layout_height="14dp"
+					android:layout_margin="5dp"
+         			android:id="@+id/passImage"
+
+         			android:textColor="#ffffff"> 
+     			</ImageView>
+     			<TextView
+         			android:layout_width="wrap_content"
+         			android:layout_height="wrap_content"
+					android:padding="1dp"
+					android:textSize="12sp"
+					android:layout_toRightOf="@id/passImage"
+         			android:id="@+id/passTitleTxt"
+         			android:text="GUESS"
+         			android:textColor="#ffffff">
+     			</TextView>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="1dp"
+					android:textSize="12sp"
+					android:layout_below="@id/passTitleTxt"
+					android:id="@+id/passDescTxt"
+					android:text="10% off on men's watches"
+					android:textColor="#ffffff">
+				</TextView>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="1dp"
+					android:textSize="12sp"
+					android:layout_below="@id/passDescTxt"
+					android:id="@+id/passClaimsTxt"
+					android:text="98 claims"
+					android:textColor="#ffffff">
+				</TextView>
+     			<ImageView
+         				android:layout_width="wrap_content"
+         				android:layout_height="wrap_content"
+         				android:background="@drawable/notif"
+         				android:id="@+id/passNotificationImage"
+         				android:layout_margin="5dp"
+						android:layout_alignParentEnd="true"
+						android:layout_alignParentRight="true"
+         				android:textColor="#ffffff">
+				</ImageView>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_below="@id/passNotificationImage"
+					android:layout_alignParentRight="true"
+					android:layout_alignParentEnd="true"
+					android:id="@+id/passDeadlineTxt"
+					android:text="2 days left"
+					android:padding="1dp"
+					android:textSize="12sp"
+					android:textColor="#ffffff">
+				</TextView>
+			</RelativeLayout>
+			<RelativeLayout
+				android:background="#005b7e"
+				android:padding="5dp"
+
+				android:layout_width="match_parent"
+				android:layout_height="100dp">
+				<TextView
+					android:id="@+id/passTypeTxt"
+					android:text="DEAL"
+					android:textColor="#fff"
+					android:padding="1dp"
+					android:textSize="12sp"
+					android:gravity="center_horizontal"
+					android:background="#00a947"
+					android:layout_width="150dp"
+					android:layout_height="wrap_content" />
+				<Button
+					android:layout_width="40dp"
+					android:layout_height="55dp"
+
+					android:id="@+id/passUseBtn"
+					android:layout_centerVertical="true"
+
+					android:layout_alignParentRight="true"
+					android:layout_alignParentEnd="true"
+					android:background="@drawable/use"
+
+					android:textColor="#ffffff">
+				</Button>
+				<Button
+					android:layout_width="40dp"
+					android:layout_height="55dp"
+					android:layout_toLeftOf="@id/passUseBtn"
+					android:layout_centerVertical="true"
+					android:background="@drawable/give"
+
+					android:id="@+id/passGiveBtn"
+					android:textColor="#ffffff">
+				</Button>
+			</RelativeLayout>
+</LinearLayout>

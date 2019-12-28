@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#45476f"
+    android:orientation="vertical" >
+    <TextView
+  	 	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:layout_margin="10dp"
+    	android:gravity="center"
+    	android:textColor="#fff"
+    	android:text="AWESOME GRAB!"
+    	/>
+   	<TextView
+  	 	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:layout_margin="10dp"
+    	android:gravity="center"
+    	android:textColor="#fff"
+    	android:text="You successfully grab this pass!"
+    	/>
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#8085b5"
+    android:padding="5dp"
+    android:orientation="horizontal" >
+    
+        	<ImageView
+        	    android:layout_width="120dp"
+        	    android:layout_height="120dp"
+        	    android:id="@+id/grabSuccessImage"
+        	 />
+            <LinearLayout 
+    			android:layout_width="match_parent"
+    			android:layout_height="wrap_content"
+    			android:orientation="vertical" >
+        		    <TextView
+				  	 	android:layout_width="match_parent"
+				    	android:layout_height="wrap_content"
+				    	android:layout_gravity="center"
+				    	android:layout_margin="10dp"
+				    	android:id="@+id/grabSuccessDescTxt"
+				    	android:gravity="center"
+				    	android:textColor="#fff"
+				    	android:text="Buy 1 take 1 on selected value meals"
+				    	/>
+				   	<TextView
+				  	 	android:layout_width="match_parent"
+				    	android:layout_height="wrap_content"
+				    	android:layout_gravity="center"
+				    	android:id="@+id/grabSuccessPriceTxt"
+				    	android:layout_margin="10dp"
+				    	android:gravity="center"
+				    	android:textColor="#fff"
+				    	android:text=" 340 php"
+				   />
+			</LinearLayout>
+	</LinearLayout>
+				<TextView
+				  	 	android:layout_width="match_parent"
+				    	android:layout_height="wrap_content"
+				    	android:layout_gravity="center"
+				    	android:layout_margin="10dp"
+				    	android:gravity="center"
+				    	android:textColor="#fff"
+				    	android:text=" You can now view this pass"
+				   />
+				<LinearLayout 
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:gravity="center"
+				    android:padding="5dp"
+				    android:orientation="horizontal" >
+            		    <Button
+				    	    android:text="OK"
+				        	android:layout_width="wrap_content"
+				    		android:layout_height="wrap_content"
+				    		android:layout_margin="15dp"
+				    		android:background="#8389b3"
+				    		android:id="@+id/grabSuccessBtnOk"
+				    		android:textColor="#fff"
+				    		/>      
+				    	<Button
+				    	    android:text="BACK"
+				        	android:layout_width="wrap_content"
+				        	android:id="@+id/grabSuccessBtnBack"
+				        	android:layout_margin="15dp"
+				    		android:layout_height="wrap_content"
+				    		android:background="#8389b3"
+				    		android:textColor="#fff"
+    						/> 
+            	</LinearLayout>
+</LinearLayout>

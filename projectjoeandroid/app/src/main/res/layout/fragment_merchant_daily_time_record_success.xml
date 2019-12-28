@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1dbed0"
+    tools:context="com.andre.projjoe.activities.MerchantLogin">
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/jollibee_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:layout_gravity="center_horizontal"
+            android:text="Time successful"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/merchantDTRSuccessNameTxt"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="Joe Jonas"
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            android:textColor="#fff"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/merchantDTRSuccessBranchTxt"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="SM North Edsa"
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            android:textColor="#fff"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/merchantDTRSuccessTimeTxt"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="9:45 A.M"
+            android:padding="3dp"
+            android:layout_margin="3dp"
+            android:textColor="#fff"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/merchantDTRSuccessImage"
+        android:layout_above="@id/merchantDTRSuccessOkBtn"
+        android:layout_centerHorizontal="true"
+        android:padding="3dp"
+        android:layout_margin="15dp"
+
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+    <Button
+        android:layout_alignParentBottom="true"
+        android:text="OK"
+        android:padding="3dp"
+
+        android:background="#2981b9"
+        android:textColor="#fff"
+        android:id="@+id/merchantDTRSuccessOkBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

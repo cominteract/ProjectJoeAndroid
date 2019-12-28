@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5e268a"
+    android:orientation="vertical" >
+    <RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="30dp"
+>
+		<TextView
+			android:textSize="24sp"
+			android:id="@+id/refsuccesstitle"
+			android:layout_centerHorizontal="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Referral Sent"
+			android:textColor="#fff"/>
+		<TextView
+			android:textSize="16sp"
+			android:layout_below="@id/refsuccesstitle"
+			android:id="@+id/refsuccessdesc"
+			android:layout_centerHorizontal="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Your referral has been successfully sent to Jessie John"
+			android:textColor="#fff"/>
+		<TextView
+			android:textSize="16sp"
+			android:layout_centerHorizontal="true"
+			android:layout_below="@id/refsuccessdesc"
+			android:id="@+id/refsuccessact"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Please constantly check the status of your pass by connecting to the internet"
+			android:textColor="#fff"/>
+		<Button
+			android:textSize="16sp"
+			android:layout_below="@id/refsuccessact"
+			android:layout_centerHorizontal="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnok"
+			android:text="OK"
+			android:textColor="#fff"/>				
+		
+        
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+

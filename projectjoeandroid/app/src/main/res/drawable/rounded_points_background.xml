@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+<item android:drawable="@drawable/messenger_button_send_round_shadow" />
+<item
+    android:top="1dp"
+    android:bottom="2dp"
+    android:left="1dp"
+    android:right="1dp"
+    >
+    <selector>
+        <item>
+            <shape android:shape="oval">
+                <solid android:color="#33839c" />
+            </shape>
+        </item>
+
+
+    </selector>
+</item>
+
+
+</layer-list>

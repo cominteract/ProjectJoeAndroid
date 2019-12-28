@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#379fba" >
+  <TextView
+      android:id="@+id/showQRTransactionTitleTxt"
+      android:layout_width="200dp"
+
+      android:layout_alignParentTop="true"
+      android:text="Please show your QR Code to the merchant"
+      android:layout_centerHorizontal="true"
+      android:layout_height="wrap_content"
+      android:layout_margin="15dp"
+      android:gravity="center"
+      android:textColor="#fff"
+
+      android:padding="2dp"/>
+  <ImageView
+      android:layout_below="@id/showQRTransactionTitleTxt"
+      android:id="@+id/showQRImage"
+      android:layout_width="200dp"
+      android:layout_height="200dp"
+      android:layout_marginTop="50dp"
+      android:layout_centerHorizontal="true"
+      android:background="#316177"
+      android:layout_gravity="center"
+      android:padding="20dp"
+    />
+  <TextView
+      android:id="@+id/showQRTransactionCodeTxt"
+      android:layout_width="200dp"
+      android:background="#6aaabd"
+
+      android:layout_below="@id/showQRImage"
+      android:layout_centerHorizontal="true"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      android:layout_gravity="center"
+      android:padding="2dp"/>
+  <TextView
+      android:id="@+id/showQRTransactionCaptionTxt"
+      android:layout_width="240dp"
+      android:background="#31596b"
+      android:textColor="#fff"
+      android:gravity="center"
+      android:textSize="16sp"
+      android:text="Photo check in for more points"
+      android:layout_below="@id/showQRTransactionCodeTxt"
+      android:layout_centerHorizontal="true"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      android:layout_gravity="center"
+      android:padding="2dp"/>
+
+
+  <Button
+      android:id="@+id/showQROkBtn"
+      android:layout_alignParentBottom="true"
+      android:layout_width="match_parent"
+      android:layout_centerHorizontal="true"
+      android:layout_height="wrap_content"
+
+      android:textColor="#fff"
+      android:background="#000"
+      android:text="OK"
+      android:layout_gravity="center"
+      android:padding="2dp"
+    />
+
+</RelativeLayout>

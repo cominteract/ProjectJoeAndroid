@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1dbed0"
+    tools:context="com.andre.projjoe.activities.MerchantLogin">
+    <FrameLayout
+        android:id="@+id/merchantNavigationFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/merchantNavigationContainer"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:layout_gravity="center_horizontal"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/jollibee_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="3dp"
+
+            android:background="@drawable/display"
+            android:textColor="#fff"
+            android:id="@+id/merchantNavigationDisplayImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:padding="3dp"
+
+                android:background="@drawable/report"
+                android:textColor="#fff"
+                android:id="@+id/merchantNavigationReportImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:padding="3dp"
+
+                android:background="@drawable/transact"
+                android:textColor="#fff"
+                android:id="@+id/merchantNavigationTransactImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:padding="3dp"
+
+                android:background="@drawable/history"
+                android:textColor="#fff"
+                android:id="@+id/merchantNavigationHistoryImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:padding="3dp"
+
+            android:background="@drawable/dailytimerecord"
+            android:textColor="#fff"
+            android:id="@+id/merchantNavigationDailyTimeImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/merchantNavigationBottomContainer"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight=".49"
+            android:text="Settings"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:background="#2981b9"
+            android:textColor="#fff"
+            android:id="@+id/merchantNavigationSettingsBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_weight=".49"
+            android:text="Logout"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:background="#ccbbcc"
+            android:textColor="#fff"
+            android:id="@+id/merchantNavigationLogoutBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
